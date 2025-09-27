@@ -43,18 +43,25 @@ node cookie_auth.js
 ### 2. Secure Route với Basic Auth
 ![Secure route Basic Auth đúng user và pass](./img/image4.png)
 sai user và pass
-![Secure route Basic Auth sai user và pass](./img/image5.png)
+![Secure route Basic Auth](./img/image5.png)
 -Gọi trực tiếp
 ![Gọi trực tiếp](./img/image3.png)
 
 ### 3. Login với Cookie Auth
-![Cookie Auth Login]
-
-### 4. Protected Route với Cookie
-![Protected Route Cookie]
-
+Test Login
+![Cookie Auth Login](./img/image6.png)
+![Cookie Auth Login](./img/image7.png)
+sai use hoặc pass 
+![Cookie Auth Login](./img/image12.png)
+### 4. Profile
+Test Profile
+![Cookie Auth Login](./img/image8.png)
 ### 5. Logout
-![Logout]
+![Logout](./img/image9.png)
+Cookie bị xóa
+![Logout](./img/image10.png)
+không tìm thấy cookie khi vào profile sau khi log out
+![Logout](./img/image11.png)
 
-## Thông tin xác thực
+
 
