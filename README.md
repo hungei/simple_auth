@@ -42,7 +42,9 @@ node cookie_auth.js
 ![Public route](./img/image2.png)
 ### 2. Secure Route với Basic Auth
 ![Secure route Basic Auth đúng user và pass](./img/image4.png)
+sai user và pass
 ![Secure route Basic Auth sai user và pass](./img/image5.png)
+-Gọi trực tiếp
 ![Gọi trực tiếp](./img/image3.png)
 
 ### 3. Login với Cookie Auth
