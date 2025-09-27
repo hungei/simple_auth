@@ -1,13 +1,5 @@
 # Simple Authentication Demo
-
 Dự án demo các phương thức xác thực trong Node.js Express, bao gồm Basic Authentication và Cookie-based Authentication.
-
-## Cấu trúc dự án
-
-- `basic_auth.js` - Demo Basic Authentication
-- `cookie_auth.js` - Demo Cookie-based Authentication với MongoDB
-- `package.json` - Dependencies và scripts
-- `img/` - Thư mục chứa hình ảnh demo
 
 ## Cài đặt
 
@@ -47,26 +39,20 @@ node cookie_auth.js
 
 ### 1. Public Route
 ![Public route](./img/image1.png)
-
+![Public route](./img/image2.png)
 ### 2. Secure Route với Basic Auth
-![Secure route Basic Auth](./img/image2.png)
+![Secure route Basic Auth đúng user và pass](./img/image4.png)
+![Secure route Basic Auth sai user và pass](./img/image5.png)
+![Gọi trực tiếp](./img/image3.png)
 
 ### 3. Login với Cookie Auth
-![Cookie Auth Login](./img/image3.png)
+![Cookie Auth Login]
 
 ### 4. Protected Route với Cookie
-![Protected Route Cookie](./img/image4.png)
+![Protected Route Cookie]
 
 ### 5. Logout
-![Logout](./img/image5.png)
+![Logout]
 
 ## Thông tin xác thực
 
-### Basic Auth
-- Username: `admin`
-- Password: `12345`
-
-### Cookie Auth
-- Username: `admin`
-- Password: `12345`
-- Role: `adsys`
