@@ -19,7 +19,7 @@ const cookieSchema = new mongoose.Schema({
   cookie_token: String,
   userId: String,
   userRole: String,
-  createdAt: { type: Date, default: Date.now, expires: 60 * 5} // expire in 5 mins
+  createdAt: { type: Date, default: Date.now, expires: 60 * 5 } // expire in 5 mins
 });
 const Cookie = mongoose.model("Cookie", cookieSchema);
 

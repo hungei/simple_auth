@@ -21,20 +21,6 @@ node cookie_auth.js
 ```
 **Lưu ý:** Cần có MongoDB chạy tại localhost:27017
 
-## API Endpoints
-
-### Basic Auth (basic_auth.js)
-- `GET /` - Public route
-- `GET /public` - Public route
-- `GET /secure` - Protected route (cần Basic Auth)
-  - Username: `admin`
-  - Password: `12345`
-
-### Cookie Auth (cookie_auth.js)
-- `POST /login` - Đăng nhập và tạo cookie
-- `GET /profile` - Protected route (cần cookie hợp lệ)
-- `POST /logout` - Đăng xuất và xóa cookie
-
 ## Test với Postman
 
 ### 1. Public Route
